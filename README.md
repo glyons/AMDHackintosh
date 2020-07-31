@@ -26,7 +26,7 @@ This should be about to boot into the Mac Installer
 
 Bios Settings these are some of the settings, I changed. 
 
-###Disable:
+### Disable:
 
 Fast Boot
 
@@ -40,7 +40,7 @@ USB Power deliver soft off state 55
 
 fTPM NV for factory reset 
 
-###Enable:
+### Enable:
 
 Power On BY PCI-E
 
