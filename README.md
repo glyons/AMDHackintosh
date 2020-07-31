@@ -1,6 +1,6 @@
 # Modern Hackintosh Guide - My Experience and Notes
 
-This is an updated version from COKelly EFI repo using OpenCore-0.5.9-RELEASE 
+Using OpenCore-0.5.9-RELEASE with Catalina
 
 This is a debug version to help folks find issues while building a Hackintosh!
 
@@ -24,27 +24,21 @@ This should be about to boot into the Mac Installer
 
 ### BIOS Settings
 
-Bios Settings these are some of the settings, I changed. 
+Bios Settings these are some of the settings, I changed.  
 
 ### Disable:
 
-Fast Boot
-
-CSM 
-
-IOMMU
-
-AMT Native NVMe Driver Support
-
-USB Power deliver soft off state 55
-
-fTPM NV for factory reset 
+* Fast Boot (Important)
+* CSM  (Important)
+* IOMMU
+* AMT Native NVMe Driver Support
+* USB power delivery in Soft Off State (S5) 
+* fTPM NV for factory reset 
 
 ### Enable:
 
-Power On BY PCI-E
-
-PCIE16_1 Mode  GEN 3
+* Power On BY PCI-E
+* PCIE16_1 Mode  GEN 3
 
 
 ## XFX RX580
