@@ -53,21 +53,20 @@ https://www.insanelymac.com/forum/topic/338516-opencore-discussion/?page=91
 - AMD-USB-Map.kext - Mapping USB port 
 - AmdCPUMonitor.kext
 - AppleALC.kext - Audio
-- FakeSMC.kext - 
+- FakeSMC.kext - Driver for emulation SMC device with hardware sensors support
 - Lilu.kext
 - NullCPUPowerManagement.kext - 
 - RadeonMonitor.kext
 - RealtekRTL8111.kext- Network Card
-- VirtualSMC.kext - 
-- W836x.kext - W836x for chips Winbond/Nuvoton 83xxx
-- WhateverGreen.kext
+- VirtualSMC.kext 
+- W836x.kext - W836x for chips Winbond/Nuvoton 83xxx on ASUS motherboards (LPC chip sensors, motherboard parameters like FAM, Voltages, temperatures)
+- WhateverGreen.kext 
 
 
 ### Need to add
 
 - AMDRyzenCPUPowerManagement.kext - AMD Power Gadget.
 - SMCAMDProcessor.kext  - (After AMDRyzenCPUPowerManagement)
-
 
 Orignal Text from COKelly
 
