@@ -23,12 +23,29 @@ This should be about to boot into the Mac Installer
 
 
 ### BIOS Settings
-fTPM NV for factory reset DISABLED
+
+Bios Settings these are some of the settings, I changed. 
+
+###Disable:
+
+Fast Boot
+
+CSM 
+
+IOMMU
+
+AMT Native NVMe Driver Support
+
+USB Power deliver soft off state 55
+
+fTPM NV for factory reset 
+
+###Enable:
+
+Power On BY PCI-E
+
 PCIE16_1 Mode  GEN 3
-USB Power deliver soft off state 55 DISABLED
-Power On BY PCI-E ENABLED
-AMT Native NVMe Driver Support DISABLED
-IOMMU: Disabled
+
 
 ## XFX RX580
 XFX RX580 Issue (See XFX folder in this REPO)
