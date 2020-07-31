@@ -47,6 +47,26 @@ Roms are included - USE AT YOUR OWN RISK!!
 https://www.insanelymac.com/forum/topic/338516-opencore-discussion/?page=91
 
 
+## Kext's
+
+- AGPMInjector.kext - for GPU power management
+- AMD-USB-Map.kext - Mapping USB port 
+- AmdCPUMonitor.kext
+- AppleALC.kext - Audio
+- FakeSMC.kext - 
+- Lilu.kext
+- NullCPUPowerManagement.kext - 
+- RadeonMonitor.kext
+- RealtekRTL8111.kext- Network Card
+- VirtualSMC.kext - 
+- W836x.kext - W836x for chips Winbond/Nuvoton 83xxx
+- WhateverGreen.kext
+
+
+### Need to add
+
+- AMDRyzenCPUPowerManagement.kext - AMD Power Gadget.
+- SMCAMDProcessor.kext  - (After AMDRyzenCPUPowerManagement)
 
 
 Orignal Text from COKelly
